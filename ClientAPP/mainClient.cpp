@@ -106,7 +106,7 @@
 				 break;
 			 }
 		 }
-	 } while (userInput != "exit" || "EXIT"); // continue untill user type "EXIT"
+	 } while (userInput != "exit" && userInput != "EXIT");// continue untill user type "EXIT"
 
 	 closesocket(clientSock);
 	 WSACleanup();
