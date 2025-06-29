@@ -12,8 +12,8 @@
 
 #pragma comment(lib, "ws2_32.lib") // Link with the Winsock library
 
-#define SERVER_IP "000.0.0.0" // The IP address of the server (localhost)
-#define SERVER_PORT 9909      // The port the server is listening on
+#define SERVER_IP "127.0.0.1" // The IP address of the server (localhost)
+#define SERVER_PORT 9999      // The port the server is listening on
 
  
  int main() {
